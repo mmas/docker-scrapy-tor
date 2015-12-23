@@ -46,7 +46,7 @@ docker run -it --link mongodb:mongodb scrapy-tor-mongo
 import os
 ...
 MONGO_HOST = os.environ['MONGODB_PORT_27017_TCP_ADDR']
-MONGO_PORT = os.environ['MONGODB_PORT_27017_TCP_ADDR']
+MONGO_PORT = os.environ['MONGODB_PORT_27017_TCP_PORT']
 ...
 ```
 
