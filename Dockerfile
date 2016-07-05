@@ -24,5 +24,6 @@ EXPOSE 6800 8118 9050
 VOLUME /opt
 
 ENV http_proxy http://127.0.0.1:8118
+ENV https_proxy http://127.0.0.1:8118
 
 ENTRYPOINT ["/usr/bin/entrypoint.sh"]
